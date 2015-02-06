@@ -1,0 +1,35 @@
+############################
+### CUSTOM SUBCATEGORIES ###
+###########################
+# customsubcategory=100=Page Template
+# customsubcategory=110=Logo
+# customsubcategory=120=Meta Settings
+# customsubcategory=130=File Include Path
+# customsubcategory=140=Content Elements Templates
+# customsubcategory=150=Config
+# customsubcategory=160=Theme
+# customsubcategory=170=News
+# customsubcategory=180=Tracking
+
+############
+### PAGE ###
+############
+page {
+
+	tracking {
+		piwik {
+			# cat=bootstrap package: basic/180/130; type=int+; label=Piwik: Tracking-ID
+			trackingID =
+			# cat=bootstrap package: basic/180/140; type=string; label=Piwik: Piwik URL (no http[s]:// nor trailing slash -/-)
+			url =
+		}
+	}
+}
+
+##############
+### CONFIG ###
+##############
+config {
+	# cat=bootstrap package: advanced/150/180; type=string; label=Header Comment
+	headerComment = 
+}

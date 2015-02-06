@@ -1,0 +1,17 @@
+<div class="footer-section">
+	<div class="container">
+		<div class="row">
+			<f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{pageUid: '{data.uid}', colPos: '11'}"/>
+		</div>
+	</div>
+</div>
+
+<div class="meta-section">
+	<div class="container">
+		<div class="row">
+			<f:if condition="{themeCopyright}">
+				<f:format.html>{themeCopyrightText}</f:format.html>
+			</f:if>
+		</div>
+	</div>
+</div>
