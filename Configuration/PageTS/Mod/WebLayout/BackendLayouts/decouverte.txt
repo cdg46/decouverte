@@ -1,0 +1,44 @@
+################################
+####  BELAYOUT: DECOUVERTE  ####
+################################
+mod {
+    web_layout {
+        BackendLayouts {
+            decouverte {
+                title = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.decouverte
+                config {
+                    backend_layout {
+                        colCount = 6
+                        rowCount = 2
+                        rows {
+                            1 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.0
+                                        colPos = 1
+                                        colspan = 2
+                                    }
+                                    2 {
+                                        name = LLL:EXT:cms/locallang_ttc.xlf:colPos.I.1
+                                        colPos = 0
+                                        colspan = 4
+                                    }
+                                }
+                            }
+                            2 {
+                                columns {
+                                    1 {
+                                        name = LLL:EXT:bootstrap_package/Resources/Private/Language/Backend.xlf:backend_layout.column.footer1
+                                        colPos = 10
+                                        colspan = 6
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                icon = EXT:bootstrap_package/Resources/Public/Images/BackendLayouts/decouverte.gif
+            }
+        }
+    }
+}

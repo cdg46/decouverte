@@ -1,3 +1,7 @@
+##############
+#### PAGE ####
+##############
+
 #######################
 #### LANGUAGE MENU ####
 #######################
@@ -75,9 +79,9 @@ page {
 			key.data = levelfield:-1, backend_layout_next_level, slide
 			key.override.field = backend_layout
 
-			bootstrap_package__default_clean = TEXT
-			bootstrap_package__default_clean.value = {$page.fluidtemplate.templateRootPath}DefaultClean.html
-			bootstrap_package__default_clean.insertData = 1
+			boostrap_theming__default_decouverte = TEXT
+			boostrap_theming__default_decouverte.value = {$page.fluidtemplate.templateRootPath}Decouverte.html
+			boostrap_theming__default_decouverte.insertData = 1
 	}
 
 	includeCSS {

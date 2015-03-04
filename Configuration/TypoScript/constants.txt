@@ -24,6 +24,16 @@ page {
 			url =
 		}
 	}
+/*
+	fluidtemplate {
+		# cat=bootstrap package: advanced/100/100; type=string; label=Layout Root Path: Path to layouts
+		layoutRootPath = EXT:boostrap_theming/Resources/Private/Layouts/Page/
+		# cat=bootstrap package: advanced/100/110; type=string; label=Partial Root Path: Path to partials
+		partialRootPath = EXT:boostrap_theming/Resources/Private/Partials/Page/
+		# cat=bootstrap package: advanced/100/120; type=string; label=Template Root Path: Path to templates
+		templateRootPath = EXT:boostrap_theming/Resources/Private/Templates/Page/
+	}
+*/
 }
 
 ##############

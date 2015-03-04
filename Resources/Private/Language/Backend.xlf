@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-09-19T09:11:39Z"
+		  product-name="bootstrap_theming">
+		<header/>
+		<body>
+
+			<trans-unit id="theme_name">
+				<source>Decouverte</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.decouverte">
+				<source>Decouverte</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
